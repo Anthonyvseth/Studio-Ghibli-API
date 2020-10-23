@@ -13,9 +13,10 @@ const getFilms = () => {
             let singleFilm = document.createElement('div')
             let title = document.createElement('h2')
             let description = document.createElement('h4')
-            let img = document.createElement("img")
             let director = document.createElement('h5')
-            let release_date = document.createElement('h5')
+            let release_date = document.createElement('h6')
+            let img = document.createElement("img")
+            
             title.innerText = allFilms[i].title
             description.innerText = allFilms[i].description
             director.innerText = allFilms[i].director
