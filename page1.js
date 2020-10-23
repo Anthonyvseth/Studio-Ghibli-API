@@ -18,9 +18,9 @@ const getFilms = () => {
             let img = document.createElement("img")
             
             title.innerText = allFilms[i].title
-            description.innerText = allFilms[i].description
-            director.innerText = allFilms[i].director
-            release_date.innerText = allFilms[i].release_date
+            description.innerText = `Description: ${allFilms[i].description}`
+            director.innerText = `Director: ${allFilms[i].director}`
+            release_date.innerText = `Release Date: ${allFilms[i].release_date}`
             singleFilm.appendChild(title)
             singleFilm.appendChild(description)
             singleFilm.appendChild(director)

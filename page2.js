@@ -18,10 +18,10 @@ const getPerson = () => {
             let age = document.createElement("h6")
 
           
-           name.innerText = allPeople[i].name
-            gender.innerText = allPeople[i].gender
-            eye_color.innerText = allPeople[i].eye_color
-            age.innerText = allPeople[i].age
+            name.innerText = `Name: ${allPeople[i].name}`
+            gender.innerText = `Gender: ${allPeople[i].gender}`
+            eye_color.innerText = `Eye Color: ${allPeople[i].eye_color}`
+            age.innerText = `Age ${allPeople[i].age}`
             singlePerson.appendChild(name)
             singlePerson.appendChild(people)
             singlePerson.appendChild(gender)
