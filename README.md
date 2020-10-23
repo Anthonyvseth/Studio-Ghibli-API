@@ -1,7 +1,4 @@
-# My Favorite Places In Colorado
+# Studio Ghibli API
 
-As you grow up and you begin to discover who you are, you learn where you live, the city you're growing up in, the place that made you the person you are today. 
-
-In my first porject, I want to create a project using a google maps API, to give details of all my favirorite places to visit in Colorado. There will be a range of place from free places to go to, resturaunts, and night life. I will be giving reason why these places are my favorite places.
-
-1st webpage = will have tab to choose 
+when I found out that one of the most inspiring creators had an API, I was so excited. A database with a lot of my favorite movies growing all in one place.
+I wanted to create a simple website displaying these titles using this API.
